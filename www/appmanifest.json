@@ -1,0 +1,17 @@
+{
+	"name": "Minda",
+	"short_name": "Minda",
+	"description": "com.comelyen.duma",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/Logo.png",
+			"sizes": "502x502",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#ffffff"
+}
