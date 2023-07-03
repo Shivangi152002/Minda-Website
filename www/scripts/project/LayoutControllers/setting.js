@@ -113,7 +113,7 @@ const StartPassbookLayer = function(){
 	
 	API.GET(API.uri.WALLET_MONEY_URL(), (balanceResponse)=> {
 		UIUtils.HideLoading();
-		totalBalance.text = "₹ " + balanceResponse.total;
+		totalBalance.text = "₹ " + balanceResponse.gameMoney;
 	}, null);
 
 	OnTap.addOnTapButton(backBtn, StartSettingsLayer);
